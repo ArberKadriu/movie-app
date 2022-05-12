@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+.root{
+  background-color: #578efa;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #578efa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+h5 {
+  font-family: 'Cooper Black', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: 'Cooper Black', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  background-size: cover;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color:#61dafb;
+}
+
+p {
+  font-family:'Candara', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+#rating {
+  font-family: 'Cooper Black', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Reviews */
+
+.card {
+  width: auto;
+  margin: auto;
+  margin-bottom: 5px;
+
+}
+.card-title {
+  margin-bottom: 20px;
+  font-size: x-large;
+  font-weight: 800;
+  text-align: center;
+}
+.reviews-top {
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
+.user-details {
+  align-items: center;
+  display: flex;
+}
+
+.avatar {
+  border-radius: 90px;
+  width: 60px;
+  height: 60px;
+  margin: 2px;
+}
+h6 {
+  font-size: larger;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.reviews-form {
+  padding: 5px;
+  width: 50vw;
+  border-radius: 20px;
+}
+
+.form-container {
+  padding: 20px;
+  background: #ffffff;
+  width: 100%;
+  border-radius: 20px;
+  margin: auto;
+}
